@@ -16,12 +16,16 @@ background-image: url(https://images.unsplash.com/photo-1755104571966-46b8c90dfc
 background-size: cover;
 background-position: center;
 text-align: center;
+
 }
 
 #navbar{
+    margin: 3px;
+    width: 100%;
+    height: 25px;
     display : flex;
-    justify-content : center;
-    gap : 20px;
+    justify-content : space-around;
+    gap : 5px;
     padding-top: 5px;
     text-align: center;
     font: 100px, Helvetica, sans-serif;
@@ -31,6 +35,28 @@ text-align: center;
     font-style: oblique;
     
 }
+#main .card{
+    width: 300px;
+    height:300px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    background-image: url(https://images.unsplash.com/photo-1571620874594-d6df8b47f708?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    
+}
+#main .card2{
+    width: 300px;
+    height: 300px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1727352218041-30e0ea1778af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDU2fHx8ZW58MHx8fHx8);
+margin-top: 50px;
+margin-left: 1000px;
+border-radius: 20px;
+background-position: center;
+background-size: cover;
+}
 
 h1{
     padding: 5px;
@@ -39,6 +65,7 @@ h1{
     font-size: large;
     font-weight: bold;
     font-style: oblique;
+    gap: 30px;
 
     text-align: center;
 }
