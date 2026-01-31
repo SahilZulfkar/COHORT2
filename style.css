@@ -18,8 +18,22 @@ background-position: center;
 text-align: center;
 }
 
+#navbar{
+    display : flex;
+    justify-content : center;
+    gap : 20px;
+    padding-top: 5px;
+    text-align: center;
+    font: 100px, Helvetica, sans-serif;
+    background-color: black;
+    font-size: medium;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+
 h1{
-    padding: 15px;
+    padding: 5px;
     color: white;
     font: 100px,Helvetica, sans-serif;
     font-size: large;
@@ -40,4 +54,20 @@ h1{
     cursor: pointer;
     border-radius: 50px;
 
+
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: royalblue;
 }
